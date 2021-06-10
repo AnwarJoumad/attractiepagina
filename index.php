@@ -25,7 +25,31 @@ require_once 'admin/backend/config.php';
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia modi dolore magnam! Iste libero voluptatum autem, sapiente ullam earum nostrum sed magnam vel laboriosam quibusdam, officia, esse vitae dignissimos nulla?
         </aside>
         <main>
-            <!-- hier komen de attractiekaartjes -->
+            <div class="attracties">
+            <?php foreach($rides as $ride): ?>
+            <div class="attractie">
+            <img src="img/attracties/" alt="SpeedyXl">
+            <div class="attractie-info">
+               <p class="themeland"><?php echo $ride['title'];</p>
+                <h2>Speedy XL</h2>
+                <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet tempora ducimus aliquam cumque exercitationem facere, quidem rerum aut unde? Alias nemo ullam perferendis consequuntur culpa ratione adipisci eveniet itaque excepturi!</p>
+                <p claas="min-leght"><span>120cm</span> mirror</p>
+            
+            
+            
+            </div>
+            
+            
+            
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            </div>
         </main>
     </div>
 
